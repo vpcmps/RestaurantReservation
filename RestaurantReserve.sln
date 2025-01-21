@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3A0B8C46-8E1D-4243-9571-896B93469215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{62D15202-1500-44FF-912B-0912676BDEBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross Cutting", "Cross Cutting", "{9F0F3998-0CFC-408F-B1D5-BF82F5950CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "CrossCutting\CrossCutting\CrossCutting.csproj", "{EDFD62DD-97DA-48DB-9C03-C3DF950ABA10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D15202-1500-44FF-912B-0912676BDEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D15202-1500-44FF-912B-0912676BDEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D15202-1500-44FF-912B-0912676BDEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D15202-1500-44FF-912B-0912676BDEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFD62DD-97DA-48DB-9C03-C3DF950ABA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFD62DD-97DA-48DB-9C03-C3DF950ABA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFD62DD-97DA-48DB-9C03-C3DF950ABA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFD62DD-97DA-48DB-9C03-C3DF950ABA10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62D15202-1500-44FF-912B-0912676BDEBC} = {3A0B8C46-8E1D-4243-9571-896B93469215}
+		{EDFD62DD-97DA-48DB-9C03-C3DF950ABA10} = {9F0F3998-0CFC-408F-B1D5-BF82F5950CD3}
+	EndGlobalSection
+EndGlobal
